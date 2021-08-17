@@ -30,6 +30,7 @@ if __name__=="__main__":
     count_citation=get_citations_needed_count(result)
     print(count_citation)
     report=get_citations_needed_report(result)
-    for string in report:
-        print(f'Citation number {string["Citation number"]} : {string["paragraph"]}' )
-        
+    # for string in report:
+    #     print(f'Citation number {string["Citation number"]} : {string["paragraph"]}' )
+    
+    print(report[0])
